@@ -822,21 +822,7 @@ Transforming Ideas into Stunning Graphics, Videos, and Websites</p>
       modalBg.classList.remove('active');
     }
   });
-
-  // Visitor counter (simple, stores count in localStorage)
-  const visitorCountEl = document.getElementById('visitor-count');
-  let count = parseInt(localStorage.getItem('visitorCount') || '0', 10);
-  count++;
-  localStorage.setItem('visitorCount', count);
-  visitorCountEl.textContent = count;
-
-const contactForm = document.getElementById('contact-form');
-contactForm.addEventListener('submit', function(e) {
-  e.preventDefault();
-  alert('Thank you for reaching out! (This is a demo form)');
-  contactForm.reset();
-});
-
+  
 </script>
 <!DOCTYPE html>
 <html lang="en">
@@ -874,6 +860,7 @@ contactForm.addEventListener('submit', function(e) {
 
 </section>
   </script>
+
 
 
 
